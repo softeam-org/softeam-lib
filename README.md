@@ -60,3 +60,46 @@ MeuComponente
 ```
 
 Certifique-se de que seu código esteja bem documentado.
+
+## O que Pode Ser Incluído
+
+### Componentes de UI Genéricos
+- **Navbars e Footers**: Componentes reutilizáveis de cabeçalhos e rodapés.
+- **Botões e Chips**: Botões e chips reutilizáveis com estilos padrão.
+- **Modais e Tooltips**: Componentes genéricos de modal e tooltip.
+- **Campos de Formulário**: Campos de input genéricos como `TextField`, `Select`, `Checkbox`.
+
+### Algoritmos e Funções Utilitárias
+- **Algoritmos de Processamento de Dados**: Funções que manipulam ou transformam dados de maneira eficiente. Exemplo: `batchProcess.js`, `dataTransformer.js`.
+- **Funções Matemáticas**: Cálculo de média, desvio padrão, etc. Exemplo: `calculateAverage.js`.
+- **Manipulação de Strings e Datas**: Exemplo: `formatDate.js`, `stringUtils.py`.
+
+### Estruturas de Dados e Métodos Genéricos
+- **Algoritmos de Otimização**: Algoritmos voltados para otimizar resultados em determinado contexto, como minimizar erros ou encontrar o melhor caminho. Exemplo: `minimizeError.js`, `findShortestPath.js`.
+- **Manipulação de Coleções de Objetos**: Funções para agrupar, dividir ou filtrar coleções de objetos. Exemplo: `groupByCategory.js`, `filterByKey.js`.
+- **Métodos de Validação**: Exemplo: `validateEmail.js`, `checkRequiredField.js`.
+
+### Bibliotecas e Plugins Genéricos
+- **Helper Functions**: Funções auxiliares como debounce, throttle, promessas. Exemplo: `debounce.js`, `throttle.js`.
+- **Integrações Simples**: Exemplo: `fetchAPI.js`, `googleMapsIntegration.js`.
+
+## O que Não Pode Ser Incluído
+
+### Componentes Específicos de Cliente
+- **Layouts e Design Exclusivo**: Exemplo: `SofteamHeader.jsx`, `ClienteXFooter.css`.
+- **Elementos de Branding Personalizados**: Exemplo: `ClienteYLogo.png`, `ClienteZColors.scss`.
+
+### Algoritmos ou Lógica de Negócio Específica
+- **Algoritmos Customizados para o Cliente**: Exemplo: `calcularDescontoClienteX.js`.
+- **Funções de Processamento de Dados Específicos**: Exemplo: `processarDadosVendaClienteX.js`.
+
+### Acessos e Credenciais
+- **Chaves de API ou Tokens**: Exemplo: `API_KEY_CLIENTEX.js`.
+- **Credenciais de Banco de Dados**: Exemplo: `DB_Credentials.js`.
+
+### Integrações Específicas
+- **Conexões com Bancos de Dados ou Sistemas Internos de Clientes**: Exemplo: `conectarBancoClienteX.js`.
+
+### Fluxos de Trabalho ou Funcionalidades Específicas do Cliente
+- **Processos Específicos de Negócios**: Exemplo: `gerenciarPedidosClienteX.js`, `validarPagamentoClienteY.py`.
+
