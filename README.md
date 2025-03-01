@@ -1,8 +1,3 @@
-
-> [!IMPORTANT]
-> Este repositório é de livre uso apenas para **integrantes da empresa** em projetos **organizado pela Softeam**. Caso queira utilizar em projetos pessoais, peça aos diretores de projetos. 
-> A utilização do código para uso pessoal e/ou comercial fora da softeam levará à consequencias.
-
 # Softeam Lib
 
 Este repositório contém uma coleção de componentes reutilizáveis desenvolvidos pela nossa equipe. Eles são projetados para serem facilmente copiados e usados em projetos de diferentes linguagens e frameworks.
